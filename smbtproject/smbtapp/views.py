@@ -32,7 +32,8 @@ def unit_master(request):
                    'cluster_name': request.POST.get('cluster'),
                    'address': request.POST.get('address'),
                    'status': request.POST.get('status'),
-                    'files':request.POST.get('file')}
+                   'files':request.POST.get('file')
+        }
 
         headers = {
             'Authorization': 'bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDAxIiwiZXhwIjoxNjczOTUzNzc2fQ.QFF5HS7CaSd5HayGe5Rv3mOEmEZu4eYv-b72GVdC0NgsqPWGJPXXMPqmJuJUQgz6HKaxGfrz1RF-oSMOoTA9-g'
